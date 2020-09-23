@@ -15,11 +15,11 @@ const grandpa = {name:'Luong', parents: [], childOf}
 
 const gen3 = [grandma, grandpa]
 
-kaye.parents[0] = mum
-kaye.parents[1] = dad
-ken.parents[0] = mum
-ken.parents[1] = dad
-mum.parents[0] = grandma
-mum.parents[1] = grandpa
+gen1[0].parents[0] = mum
+gen1[0].parents[1] = dad
+gen1[1].parents[0] = mum
+gen1[1].parents[1] = dad
+gen2[0].parents[0] = grandma
+gen2[1].parents[1] = grandpa
 
 kaye.childOf()

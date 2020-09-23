@@ -1,0 +1,22 @@
+{
+  "name": "familytree",
+  "version": "1.0.0",
+  "description": "tested family-tree",
+  "main": "jest --watchAll",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hi-kaye/test.git"
+  },
+  "author": "kayehin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hi-kaye/test/issues"
+  },
+  "homepage": "https://github.com/hi-kaye/test#readme",
+  "dependencies": {
+    "jest": "^26.4.2"
+  }
+}
