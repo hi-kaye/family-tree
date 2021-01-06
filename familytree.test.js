@@ -15,13 +15,13 @@ describe('Family Tree', function () {
     test('My mum is in the tree', function () {
         const me = familyTree[0]
         const mum = me.parents[0]
-        expect (mum.name).toEqual('Mylinh')
+        expect (mum.name).toEqual('Mum')
     })
 
     test('My dad is in the tree', function () {
         const brother = familyTree[1]
         const dad = brother.parents[1]
-        expect (dad.name).toEqual('Cuong')
+        expect (dad.name).toEqual('Dad')
     
     })
     
