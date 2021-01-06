@@ -3,13 +3,13 @@ const brother = {name: 'Ken', parents: [], age: '46'}
 
 const gen1 = [me, brother]
 
-const mum = {name: 'Mylinh', parents: [], age: '70'}
-const dad = {name:'Cuong', parents: [], age: '75'}
+const mum = {name: 'Mum', parents: [], age: '70'}
+const dad = {name:'Dad', parents: [], age: '75'}
 
 const gen2 = [mum,dad]
 
-const grandma = {name:'May', parents: [], age: '96'}
-const grandpa = {name:'Luong', parents: [], age: '99'}
+const grandma = {name:'Grandma', parents: [], age: '96'}
+const grandpa = {name:'Grandpa', parents: [], age: '99'}
 
 const gen3 = [grandma, grandpa]
 
